@@ -1,0 +1,13 @@
+.create-group-btn {
+  border-radius: 6px !important;
+  background: var(--main-color) !important;
+  color: #fff !important;
+  height: 40px !important;
+  width: 200px !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+.green {
+  background: #438b0a !important;
+}

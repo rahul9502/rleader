@@ -1,0 +1,23 @@
+.group-div {
+  padding-bottom: 25px;
+}
+
+.divider {
+  height: 1px;
+  background: #d9d9d9;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+
+.location-active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.location-active p {
+  margin-bottom: 0px;
+}

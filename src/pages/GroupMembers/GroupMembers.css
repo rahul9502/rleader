@@ -1,0 +1,20 @@
+.member-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.member-div img {
+  margin-right: 10px;
+}
+
+.member-div p {
+  margin-bottom: 0px;
+  color: #000;
+  font-size: 12px;
+}
+
+.member-div span {
+  color: #a49cc1;
+  font-size: 10px;
+}

@@ -1,0 +1,32 @@
+@media only screen and (max-width: 767px) {
+  .watch-top-members-group {
+    color: #e12557;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .group-name {
+    color: #000;
+    font-size: 14px;
+  }
+
+  .group-name img {
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  .group-members {
+    color: #000;
+    font-size: 16px;
+  }
+
+  .group-members span {
+    color: #7f7f7f;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  li.list-group-item.d-flex.justify-content-between.align-items-start {
+    padding: 15px 3px;
+  }
+}

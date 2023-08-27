@@ -1,0 +1,46 @@
+:root {
+  --main-color: #0f9bfb;
+  --font-weight-600: 600;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+body {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    display: block;
+  }
+
+  .cancel-text,
+  .add-text {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .add-text img {
+    height: 30px;
+    display: block;
+    margin-top: 8px;
+  }
+
+  .send-otp {
+    position: absolute;
+    right: 27px;
+    margin-top: -39px;
+    background: var(--main-color);
+    color: #fff;
+    padding: 4px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

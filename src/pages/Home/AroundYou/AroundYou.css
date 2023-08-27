@@ -1,0 +1,65 @@
+@media only screen and (max-width: 767px) {
+  .around-you {
+    margin-top: 15px;
+  }
+
+  .icon-div {
+    padding-top: 10px;
+  }
+
+  .icon-div a {
+    text-decoration: none;
+  }
+
+  .around-you .icon {
+    width: 76px;
+    height: 76px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 35px;
+  }
+
+  .around-you .icon svg {
+    fill: #ffffff;
+  }
+
+  .around-you .icon1 {
+    background: #109566;
+  }
+
+  .around-you .icon2 {
+    background: #6a3dc3;
+  }
+
+  .around-you .icon3 {
+    background: #eb5523;
+  }
+
+  .around-you .icon4 {
+    background: #ec6277;
+  }
+
+  .around-you .icon5 {
+    background: var(--main-color);
+  }
+
+  .around-you .icon6 {
+    background: #e36b46;
+  }
+
+  .around-you p {
+    color: #323337;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  .plus-icon {
+    margin: 0 auto;
+    display: block;
+    height: 50px;
+    margin-top: 20px;
+  }
+}

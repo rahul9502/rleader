@@ -1,0 +1,39 @@
+@media only screen and (max-width: 767px) {
+  .slider-div {
+    margin: 20px 0px;
+  }
+
+  .slider-div img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .swiper-slide::before {
+    content: "";
+    background: #00000063;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-radius: 10px;
+  }
+
+  .slider-div p {
+    position: absolute;
+    z-index: 9999;
+    bottom: 0px;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .slider-div .swiper-pagination-bullet {
+    background: #fff;
+    opacity: 0.6;
+  }
+
+  .slider-div .swiper-pagination-bullet-active {
+    background: #0f9bfb;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,52 @@
+.group-div {
+  padding-bottom: 25px;
+}
+
+.divider {
+  height: 1px;
+  background: #d9d9d9;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+
+.location-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0px;
+  color: #010101;
+  font-size: 14px;
+  font-weight: 700;
+  background: #f5f6fa;
+  padding: 3px;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-bg-type: #f5f6fa !important;
+}
+
+.location-heading p {
+  margin-bottom: 0px;
+}
+
+.atcive-member-list th:nth-child(1) {
+  width: 50px;
+}
+
+.atcive-member-list th:nth-child(3) {
+  width: 80px;
+}
+
+.atcive-member-list th:nth-child(2) {
+  color: #e12557;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.atcive-member-list td,
+.atcive-member-list th {
+  vertical-align: middle;
+  border-bottom: 0px;
+}

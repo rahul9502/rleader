@@ -1,0 +1,22 @@
+.news-view-div {
+  margin-top: 20px;
+}
+
+.news-view-div h3 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.news-view-div p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.social-icons {
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}

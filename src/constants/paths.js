@@ -1,0 +1,15 @@
+export const navPaths = {
+  HOME: "/home",
+  MY_GROUP: "/my-group",
+  CREATE_GROUP: "/create-group",
+  ADD_MEMBER: "/add-member",
+  GROUP_MEMBERS: "/group-members",
+  WAR_ROOM: "/war-room",
+  NEWS_MORE: "/news-more",
+  GROUPS: "/groups",
+  ACTIVE_MEMBERS: "/active-members",
+  HOTSPOT: "/hotspot",
+  REPORT_PROBLEM: "/report-problem",
+  LOGIN: "/login",
+  OTP_VERIFICATION: "/otp-verification",
+};
